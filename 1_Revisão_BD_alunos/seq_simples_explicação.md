@@ -55,12 +55,25 @@ VALUES ('Ficção Científica', 'Livros que exploram conceitos científicos avan
 INSERT INTO categorias (nome, descricao)
 VALUES ('Romance', 'Narrativas centradas em relações amorosas');
 
+INSERT INTO categorias (nome, descricao)
+VALUES ('Comédia', 'Conteúdo humoristico');
+
+INSERT INTO categorias (nome, descricao)
+VALUES ('Fantasia', 'Contos fantasticos');
+
+
 -- Inserindo livros
 INSERT INTO livros (titulo, isbn, ano, categoria_id)
 VALUES ('Fundação', '9788576572664', 1951, 1);
 
 INSERT INTO livros (titulo, isbn, ano, categoria_id)
 VALUES ('Orgulho e Preconceito', '9788544001820', 1813, 2);
+
+INSERT INTO livros (titulo, isbn, ano, categoria_id)
+VALUES ('Instrumentos Mortais', '7638298374899', 2007, 3);
+
+INSERT INTO livros (titulo, isbn, ano, categoria_id)
+VALUES ('Peças Infernais', '35467890876543', 2012, 4);
 ```
 
 ### READ (R) - SELECT
